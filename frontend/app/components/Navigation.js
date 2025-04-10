@@ -7,11 +7,11 @@ const Navigation = () => {
   return (
     <div>
       <nav className="bg-red-500 h-[70px] flex relative w-full overflow-hidden">
-        <ul className="flex space-x-4 items-center pl-3">
-          <div className="p-3 bg-white rounded-sm">
+        <ul className="flex space-x-4 items-center pl-3 [&>*]:p-2  [&>*]:bg-white [&>*]:rounded-sm">
+          <div>
             <li>ORDER ONLINE</li>
           </div>
-          <div className="p-3 bg-white rounded-sm">
+          <div>
             <li>ABOUT US</li>
           </div>
         </ul>
