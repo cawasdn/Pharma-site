@@ -5,7 +5,8 @@ const Navigation = () => {
   return (
     <>
       <div className="h-[10px] w-full bg-[#EC1D23]"></div>
-      <nav className="h-full bg-slate-300">
+
+      <nav className="h-full">
         <div className="flex justify-between p-5">
           <Image
             src="/images/logo.png"
